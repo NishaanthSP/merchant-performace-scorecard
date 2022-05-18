@@ -19,4 +19,6 @@ passport.use(UserDetails.createStrategy());
 passport.serializeUser(UserDetails.serializeUser());
 passport.deserializeUser(UserDetails.deserializeUser());
 
-module.exports = {UserDetail, passport};
+// UserDetails.register({username: "Nishaanth", active: false}, "NichuSPN");
+
+module.exports = {UserDetails, passport};
